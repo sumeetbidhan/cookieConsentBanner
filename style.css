@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 16px;
+  display: none;
+  z-index: 1000;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+#cookie-banner a{
+  color: #4CAF50;
+  text-decoration: underline;
+}
+
+#cookie-banner button{
+  margin-left: 10px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+#cookie-banner button:hover {
+  background-color: #45a049;
+}
+
+@keyframes fadeIn {
+  from{
+    opacity: 0;;
+  }
+  to{
+    opacity: 1;
+  }
+  
+}
